@@ -1,4 +1,5 @@
----
+    ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/ wp-content / themes / flatsome-child 
+    - export DEPLOYPATH=/home/example/public_html/wp-content/themes/flatsome-child
+    - /bin/cp -R images $DEPLOYPATH
